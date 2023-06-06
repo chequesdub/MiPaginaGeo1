@@ -63,7 +63,7 @@
             echo "<h2>Datos:</h2>";
             foreach ($datosPagina as $dato) {
                 echo "<p>ID: " . $dato->id . "</p>";
-                echo "<p>Email: " . $dato->email . "</p>";
+                echo "<p>Email Hola: " . $dato->email . "</p>";
                 echo "<p>Nombre: " . $dato->nombre . "</p>";
                 echo "<hr>";
             }
